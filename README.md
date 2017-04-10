@@ -36,7 +36,7 @@ _Example_
     -o --outfile <filename>  filename to save json to [output.json]
 
 
-% m2j.js lottery.md
+% m2j posts/lottery.md
 ```
 
 **lottery.md**
@@ -82,3 +82,18 @@ Ivan Dmitritch, a middle-class man who lived with his family on an income of twe
 
 [1]: https://en.wikipedia.org/wiki/ISO_8601
 [2]: http://momentjs.com/docs/#/parsing/string/
+
+## 其他说明
+
+```shell
+m2j posts/*.md
+```
+
+命令行的参数长度有限制，所以 posts 目录下的 md 文件数量不能太多，否则会报 `Argument list too long` ，正确的做法是将 文件夹 拆分成更小的文件夹
+
+```shell
+m2j posts/1/*.md
+m2j posts/2/*.md
+m2j posts/3/*.md
+```
+
