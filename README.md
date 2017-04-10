@@ -61,21 +61,19 @@ Ivan Dmitritch, a middle-class man who lived with his family on an income of twe
 
 ```js
 {
-  "files": [
-    {
-      "title": "The Lottery Ticket",
-      "author": "Anton C.",
-      "date": "1893-04-01",
-      "template": "article.jade",
-      "tags": [
-        "Fiction",
-        "Russian"
-      ],
-      "preview": "Ivan Dmitritch, a middle-class man who lived with his family on an …",
-      "iso8601Date": "1893-04-01T00:00:00-07:00",
-      "basename": "lottery.md"
-    }
-  ]
+  "lottery": {
+    "title": "The Lottery Ticket",
+    "author": "Anton C.",
+    "date": "2013-03-15 15:00",
+    "template": "article.jade",
+    "tags": [
+      "Fiction",
+      "Russian"
+    ],
+    "preview": "Ivan Dmitritch, a middle-class man who lived with his family on an …",
+    "iso8601Date": "2013-03-15T15:00:00+08:00",
+    "basename": "lottery"
+  }
 }
 ```
 
